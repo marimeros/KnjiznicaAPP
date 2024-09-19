@@ -22,8 +22,8 @@ builder.Services.AddDbContext<EdunovaContext>(opcije =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI(o => {
 
@@ -31,7 +31,7 @@ if (app.Environment.IsDevelopment())
         o.EnableTryItOutByDefault();
 
     });
-}
+//}
 
 app.UseHttpsRedirection();
 
