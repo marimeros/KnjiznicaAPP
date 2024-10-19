@@ -31,7 +31,7 @@ export default function KnjigeDodaj(){
 
     return(
         <>
-        Dodavanje knjigaa
+        Dodavanje knjiga
         <Form onSubmit={obradiSubmit}>
 
             <Form.Group controlId="naziv">
@@ -40,7 +40,7 @@ export default function KnjigeDodaj(){
             </Form.Group>
 
             <Form.Group controlId="knjizevnavrsta">
-                <Form.Label>knjizevnavrsta</Form.Label>
+                <Form.Label>Književna vrsta</Form.Label>
                 <Form.Control type="text" name="knjizevnavrsta" required />
             </Form.Group>
 

@@ -49,10 +49,7 @@ export default function KnjigePregled(){
             <thead>
                 <tr>
                     <th>Naziv</th>
-                    <th>Trajanje</th>
-                    <th>Cijena</th>
-                    <th>Izvodi se od</th>
-                    <th>Vaučer</th>
+                    <th>Vrsta</th>
                     <th>Akcija</th>
                 </tr>
             </thead>
