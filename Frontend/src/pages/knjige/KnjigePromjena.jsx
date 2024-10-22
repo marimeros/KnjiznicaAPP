@@ -48,7 +48,7 @@ export default function KnjigePromjena(){
 
     return(
         <>
-        Promjena knjiga
+        Promjena knjige
         <Form onSubmit={obradiSubmit}>
 
             <Form.Group controlId="naziv">
@@ -59,7 +59,7 @@ export default function KnjigePromjena(){
 
             <Form.Group controlId="knjizevnavrsta">
                 <Form.Label>Književna vrsta</Form.Label>
-                <Form.Control type="text" name="naziv" required
+                <Form.Control type="text" name="knjizevnavrsta" required
                 defaultValue={knjiga.knjizevnavrsta} />
             </Form.Group>
 
@@ -73,7 +73,7 @@ export default function KnjigePromjena(){
             <Col xs={6} sm={12} md={9} lg={6} xl={6} xxl={6}>
             <Button variant="success"
             type="submit"
-            className="siroko">Promjeni knjiga</Button>
+            className="siroko">Promjeni knjigu</Button>
             </Col>
         </Row>
         </Form>

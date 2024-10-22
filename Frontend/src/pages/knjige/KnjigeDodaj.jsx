@@ -31,7 +31,7 @@ export default function KnjigeDodaj(){
 
     return(
         <>
-        Dodavanje knjiga
+        Dodavanje knjige
         <Form onSubmit={obradiSubmit}>
 
             <Form.Group controlId="naziv">
@@ -53,7 +53,7 @@ export default function KnjigeDodaj(){
             <Col xs={6} sm={12} md={9} lg={6} xl={6} xxl={6}>
             <Button variant="success"
             type="submit"
-            className="siroko">Dodaj knjiga</Button>
+            className="siroko">Dodaj knjigu</Button>
             </Col>
         </Row>
         </Form>

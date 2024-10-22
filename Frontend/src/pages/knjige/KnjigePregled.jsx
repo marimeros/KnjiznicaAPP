@@ -44,7 +44,7 @@ export default function KnjigePregled(){
     return(
         <>
         <Link to={RouteNames.KNJIGA_NOVI}
-        className="btn btn-success siroko">Dodaj novi knjiga</Link>
+        className="btn btn-success siroko">Dodaj novu knjigu</Link>
         <Table striped bordered hover responsive>
             <thead>
                 <tr>
